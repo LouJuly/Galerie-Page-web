@@ -43,8 +43,10 @@ body{
 }
 .category img{
 	 width: 50%;
-	 height: 150px;
+	 height: 300px;
 	object-fit: cover;
+	Padding : 10px;
+	display: inline-block;
  }
 .filter {
 	display : none;
