@@ -1,15 +1,20 @@
 body{
 	min-height: 100Vh;
-	background-color: White;
+	background-color:White;
 	margin: 50px;
 	text-align : center;
+	padding-top : 20px;
 }
 .container {
 	max-width: 1000px;
 	position: relative;
 	width : 100%;
-	margin: 150px auto;
-	padding: 30px;
+	margin: 100px auto;
+	padding: 50px;
+	display: inline-block;
+   padding-top: 20px;
+  
+	
 }
 .container filter {
 	display: flex;
@@ -18,35 +23,31 @@ body{
 	gap: 20px;
 	
 }
+.active{
+	color : white;
+}
 .container  button {
    padding : 10px 15px;
-   background : white;
+   background : black;
    box-shadow :0 5px 5px rgba(0,0,0,2);
    cursor : pointer;
+   Color : Pink;
+  
 }
 
-.container button.category {
-	background : rgb(130,189.238);
-	Color : Pink;
-}
 .category{
 	
 	display: flex;
-	align-items: center;
 	flex-wrap :wrap;
 }
-.category{
-	flex-basis : 300px;
-	text-align: center;
-	padding : 3px;
-	border-radius: 8px
-}
+
 .category img{
-	 width: 50%;
+	 width: 180px;
 	 height: 300px;
-	object-fit: cover;
-	Padding : 10px;
-	display: inline-block;
+	padding : 15px 15px;
+	
+
+	
  }
 .filter {
 	display : none;
